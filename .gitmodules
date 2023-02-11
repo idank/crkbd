@@ -4,3 +4,6 @@
 [submodule "corne-light/pcb/kbd"]
 	path = corne-light/pcb/kbd
 	url = https://github.com/foostan/kbd
+[submodule "corne-pimoroni/pcb/kbd"]
+	path = corne-pimoroni/pcb/kbd
+	url = https://github.com/foostan/kbd

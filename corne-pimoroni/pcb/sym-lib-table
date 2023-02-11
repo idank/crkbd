@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name "kbd")(type "KiCad")(uri "${KIPRJMOD}/kbd/kicad-symbols/kbd.kicad_sym")(options "")(descr ""))
+  (lib (name "pimoroni")(type "KiCad")(uri "${KIPRJMOD}/pimoroni.kicad_sym")(options "")(descr ""))
+)

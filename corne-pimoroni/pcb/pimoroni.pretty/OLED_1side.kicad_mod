@@ -1,0 +1,68 @@
+(footprint "OLED_1side" (version 20211014) (generator pcbnew)
+  (layer "F.Cu")
+  (tedit 5F8C836B)
+  (descr "Connecteur 6 pins")
+  (tags "CONN DEV")
+  (attr through_hole)
+  (fp_text reference "J2" (at 3.7 2.1 180) (layer "F.Fab")
+    (effects (font (size 0.8128 0.8128) (thickness 0.15)))
+    (tstamp c3c9a795-7b6f-418e-b3f4-b58f38fb0904)
+  )
+  (fp_text value "PIM" (at 3.6 3.3) (layer "F.SilkS") hide
+    (effects (font (size 0.8128 0.8128) (thickness 0.15)))
+    (tstamp dd0186f8-73ae-4fe1-ab7c-948b169b78f9)
+  )
+  (fp_text user "PIM" (at 3.8 -2.1) (layer "F.SilkS")
+    (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp 5372681e-a438-4bff-82a3-c8c4b07d4685)
+  )
+  (fp_line (start -1.15 -1.15) (end 11.29 -1.15) (layer "F.SilkS") (width 0.15) (tstamp 09e3049c-ed5b-4c7b-9bf2-509c09e1860d))
+  (fp_line (start -1.15 1.15) (end 11.29 1.15) (layer "F.SilkS") (width 0.15) (tstamp 35e9f4af-58e4-4fa4-b11f-6b5c187d1a62))
+  (fp_line (start 11.29 -1.15) (end 11.29 1.15) (layer "F.SilkS") (width 0.15) (tstamp 4debbd9d-d44a-4082-b230-b5dc3f415988))
+  (fp_line (start -1.15 1.15) (end -1.15 -1.15) (layer "F.SilkS") (width 0.15) (tstamp c54a36aa-ee63-4ff1-b701-ddbfe71f811c))
+  (fp_line (start -2.56 -4.6) (end -7.41 -4.6) (layer "Dwgs.User") (width 0.15) (tstamp 10dabbe7-7eaa-43e4-ac60-4c2b73118ae7))
+  (fp_line (start 12.09 -20) (end 12.09 -6) (layer "Dwgs.User") (width 0.15) (tstamp 32e8da8f-0b37-436f-a9b6-1b3be3e40b0f))
+  (fp_line (start 12.74 -4.6) (end 12.74 1) (layer "Dwgs.User") (width 0.15) (tstamp 52338f95-5544-4d2b-ae78-5cf61659f465))
+  (fp_line (start -2.56 1) (end -2.56 -4.6) (layer "Dwgs.User") (width 0.15) (tstamp 5570f887-e617-4b87-b0eb-28c57863a7bd))
+  (fp_line (start 12.09 -6) (end -1.91 -6) (layer "Dwgs.User") (width 0.15) (tstamp 5ab54b32-e80b-4eec-b282-8a0ef81a99dc))
+  (fp_line (start -1.91 -6) (end -1.91 -20) (layer "Dwgs.User") (width 0.15) (tstamp 7bca424d-ccba-4bbc-ab58-c586fd8ab5a1))
+  (fp_line (start 12.74 -4.6) (end 17.59 -4.6) (layer "Dwgs.User") (width 0.15) (tstamp 7deb69b4-a9fd-4f81-b601-557bb4b2e96c))
+  (fp_line (start 17.59 -21) (end 17.59 -4.6) (layer "Dwgs.User") (width 0.15) (tstamp a4089ecc-cc3c-410c-8f80-c6eac7c59a9f))
+  (fp_line (start -7.41 -21) (end 17.59 -21) (layer "Dwgs.User") (width 0.15) (tstamp b82e618d-2d0c-4821-84c1-1f5e486f24c2))
+  (fp_line (start -1.91 -20) (end 12.09 -20) (layer "Dwgs.User") (width 0.15) (tstamp bf178cae-8e93-437c-bd0a-7f5571e803cf))
+  (fp_line (start 12.74 1) (end -2.56 1) (layer "Dwgs.User") (width 0.15) (tstamp df3d19e9-5241-4744-9a7c-ed223ef5e20e))
+  (fp_line (start -7.41 -4.6) (end -7.41 -21) (layer "Dwgs.User") (width 0.15) (tstamp e66a282e-d99b-49bb-b605-47f3bb0fc357))
+  (fp_circle (center 5.09 0) (end 5.59 0) (layer "Dwgs.User") (width 0.15) (fill none) (tstamp 562cb4eb-36c6-43c7-a5b5-b1ede00c6b7f))
+  (pad "1" thru_hole oval (at 0 0) (size 1.397 1.778) (drill 0.8128) (layers *.Cu "B.Mask") (tstamp 350fdcc9-767c-43e5-9b75-73151e5578e8))
+  (pad "2" thru_hole oval (at 2.54 0) (size 1.397 1.778) (drill 0.8128) (layers *.Cu "B.Mask") (tstamp f28f5853-5428-458b-8034-10707c0c9ea1))
+  (pad "3" thru_hole oval (at 5.08 0) (size 1.397 1.778) (drill 0.8128) (layers *.Cu "B.Mask") (tstamp 598ff51d-6c47-461f-bf6f-390426b7e79b))
+  (pad "4" thru_hole oval (at 7.62 0) (size 1.397 1.778) (drill 0.8128) (layers *.Cu "B.Mask") (tstamp 13468a7b-b637-4383-9743-ad2a59532158))
+  (pad "5" thru_hole oval (at 10.16 0) (size 1.397 1.778) (drill 0.8128) (layers *.Cu "B.Mask") (tstamp 54d0cd54-4736-4359-aa60-5b72b4c8d025))
+  (group "" (id ba05aec4-3b0d-4199-994d-4f513e6b3f19)
+    (members
+      10dabbe7-7eaa-43e4-ac60-4c2b73118ae7
+      32e8da8f-0b37-436f-a9b6-1b3be3e40b0f
+      52338f95-5544-4d2b-ae78-5cf61659f465
+      5570f887-e617-4b87-b0eb-28c57863a7bd
+      562cb4eb-36c6-43c7-a5b5-b1ede00c6b7f
+      5ab54b32-e80b-4eec-b282-8a0ef81a99dc
+      7bca424d-ccba-4bbc-ab58-c586fd8ab5a1
+      7deb69b4-a9fd-4f81-b601-557bb4b2e96c
+      a4089ecc-cc3c-410c-8f80-c6eac7c59a9f
+      b82e618d-2d0c-4821-84c1-1f5e486f24c2
+      bf178cae-8e93-437c-bd0a-7f5571e803cf
+      df3d19e9-5241-4744-9a7c-ed223ef5e20e
+      e66a282e-d99b-49bb-b605-47f3bb0fc357
+    )
+  )
+  (model "/Users/foostan/src/github.com/foostan/kbd/kicad-packages3D/kbd.3dshapes/pin-header-1x4.step"
+    (offset (xyz 3.8 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
+  (model "/Users/foostan/src/github.com/foostan/kbd/kicad-packages3D/kbd.3dshapes/OLED-Module-with-Pins.step"
+    (offset (xyz 3.8 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
+)
